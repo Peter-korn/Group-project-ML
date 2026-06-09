@@ -137,9 +137,9 @@ scraping_cian_commercial_rent(regions)
 df = pd.DataFrame(all_rents)
 df = df.drop_duplicates(subset=['id', 'area_m2'])
 
-if not os.path.exists('data'):
-    os.makedirs('data')
-df.to_csv('data/cian_commercial_150_700.csv', index=False, encoding='utf-8')
+if not os.path.exists('../data'):
+    os.makedirs('../data')
+df.to_csv('../data/cian_commercial_150_700.csv', index=False, encoding='utf-8')
 
 print(f'Собрано {len(df)} помещений.')
 logger.info(f'Собрано {len(df)} помещений. Скрапинг завершен.')
