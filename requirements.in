@@ -10,3 +10,5 @@ seaborn
 nbformat
 webdriver-manager
 openpyxl
+scikit-learn
+category_encoders
