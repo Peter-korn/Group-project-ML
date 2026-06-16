@@ -1,0 +1,14 @@
+pandas
+numpy
+bs4
+plotly
+selenium
+requests
+python-dotenv
+matplotlib
+seaborn
+nbformat
+webdriver-manager
+openpyxl
+scikit-learn
+category_encoders
