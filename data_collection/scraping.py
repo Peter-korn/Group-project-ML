@@ -12,6 +12,7 @@ from typing import Dict
 from config import setup_logging
 
 
+setup_logging()
 logger = logging.getLogger('scrapping')
 logger.info("Скраппинг запущен.")
 
